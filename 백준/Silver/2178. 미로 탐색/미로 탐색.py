@@ -1,16 +1,16 @@
 from collections import deque
 
-# 2178. 미로탐색
 n, m = map(int, input().split()) # 세로, 가로
 maze = [[]]
-visited = [[0] * (m + 1) for _ in range(n + 1)] # 방문 여부
+visited = [[0] * (m + 1) for _ in range(n + 1)] # 방문 여부 기록
 
 for _ in range(n):
     elem = list(map(int, input()))
     elem.insert(0, 0)
     maze.append(elem)
 
-dx = [0, 1, 0, -1] # 우 하 좌 상
+# 우 하 좌 상 방향으로 탐색
+dx = [0, 1, 0, -1] 
 dy = [1, 0, -1, 0]
 
 
