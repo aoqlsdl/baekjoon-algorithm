@@ -1,6 +1,4 @@
-# 3/2 숙제
 import sys
-from collections import deque
 
 input = sys.stdin.readline
 n = int(input())
