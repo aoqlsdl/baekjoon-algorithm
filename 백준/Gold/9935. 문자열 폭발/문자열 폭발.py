@@ -1,4 +1,3 @@
-# 9935. 문자열 폭발
 import os
 
 arr = list(input())
