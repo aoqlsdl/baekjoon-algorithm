@@ -14,15 +14,12 @@ def recursive(size):
 
     res = []
 
-    # 첫 번째 줄
     for s in star:
         res.append(s * 3)
 
-    # 두 번째 줄
     for s in star:
         res.append(s + " " * (size // 3) + s)
 
-    # 세 번째 줄
     for s in star:
         res.append(s * 3)
 
